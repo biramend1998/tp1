@@ -1,0 +1,158 @@
+/* Importation de la police futuriste */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+/* Général */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0A0A0A;
+    color: white;
+    text-align: center;
+}
+
+/* En-tête */
+header {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Dégradé sous la bande noire */
+.header-gradient {
+    position: absolute;
+    top: 100px; /* Juste sous l'en-tête */
+    left: 0;
+    width: 200%;
+    height: 205px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 255), transparent);
+    z-index: 999;
+}
+
+/* Logo */
+.logo img {
+    width: 220px;
+    height: 80px;
+}
+
+/* Bouton Menu */
+#menu-toggle {
+    background: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    z-index: 1003;
+    display: block;
+    position: fixed;
+    right: 20px;
+    top :20px;
+}
+
+/* Menu déroulant */
+nav {
+    display: none;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    left: 0;
+    padding: 15px 0;
+    z-index: 1001;
+}
+
+nav.open {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 10px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+/* Section vidéo */
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Texte futuriste */
+.futuristic-text {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    color: red;
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5);
+}
+
+/* Bouton de réservation */
+.reservation-btn {
+    display: inline-block;
+    padding: 15px 35px;
+    background: red;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 3px solid white;
+    transition: 0.3s;
+}
+
+.reservation-btn:hover {
+    background: white;
+    color: red;
+    border: 3px solid red;
+    transform: scale(1.1);
+}
