@@ -156,3 +156,471 @@ nav ul li a:hover {
     border: 3px solid red;
     transform: scale(1.1);
 }
+/* Section À PROPOS */
+.about {
+    text-align: center;
+    padding: 50px;
+    background: black;
+    color: white;
+}
+
+/* Section des stades */
+.stadium-section {
+    background: linear-gradient(to bottom, black, red);
+    padding: 40px;
+    text-align: center;
+}
+
+.stadium-images img {
+    width: 23%;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+/* Accompagnements */
+.accompaniments {
+    text-align: center;
+    padding: 50px;
+    background: rgb(253, 248, 248);
+    color: white;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    background: red;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.service:hover {
+    background: white;
+    color: red;
+}
+
+/* Partenaires */
+.partners {
+    text-align: center;
+    padding: 50px;
+    background: black;
+    color: white;
+}
+
+.partners-logos img {
+    width: 100px;
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    padding: 30px;
+    align-items: center;
+}
+
+.contact {
+    text-align: left;
+}
+
+.footer-logo img {
+    width: 10000px;
+    height: 10000px;
+}
+
+/* ✅ Style pour la section À PROPOS */
+.about {
+    background: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+
+.about h2::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: red;
+    margin: 10px auto;
+}
+
+/* ✅ Texte rouge pour "BIENVENUE CHEZ BISPORT" */
+.red-text {
+    color: red;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+/* ✅ Mise en page des paragraphes */
+.about-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.about-content p {
+    width: 45%;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: left;
+}
+/* ✅ Style pour la section À PROPOS */
+.about {
+    background: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+/* ✅ Titre + image alignés horizontalement */
+.about-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* Espace entre le texte et l'image */
+}
+
+/* ✅ Taille et position de l'image */
+.about-image {
+    width: 150px; /* Ajuste la taille selon l'image */
+    height: auto;
+}
+
+/* ✅ Barre rouge sous le titre */
+.about h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+
+.about h2::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: red;
+    margin: 10px auto;
+}
+
+/* ✅ Texte rouge pour "BIENVENUE CHEZ BISPORT" */
+.red-text {
+    color: red;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+/* ✅ Alignement des paragraphes face à face */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.about-text {
+    width: 45%;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+/* ✅ Section ADMIN */
+.admin-container {
+    text-align: center;
+    padding: 50px;
+    background: black;
+    color: white;
+}
+
+.admin-container h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.admin-container table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: red;
+    color: white;
+}
+
+.admin-container th, .admin-container td {
+    padding: 15px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.admin-container th {
+    background: black;
+}
+
+.admin-container td {
+    background: rgba(255, 255, 255, 0.2);
+}
+ /* ✅ Bannière des terrains */
+.terrain-banner {
+    background: url('assets/terrain_banner.jpg') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* ✅ Section texte + image */
+.terrain-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+    padding: 50px 0;
+    color: white;
+}
+
+.terrain-text {
+    width: 55%;
+}
+
+.terrain-text h2 {
+    font-size: 2.5rem;
+    color: red;
+    border-bottom: 4px solid red;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.terrain-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.terrain-text ul li {
+    font-size: 1.2rem;
+    padding: 5px 0;
+}
+
+.terrain-image {
+    width: 40%;
+}
+
+.terrain-image img {
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+
+/* ✅ Section des stades */
+.stadium-list {
+    text-align: center;
+    padding: 50px 0;
+    background: black;
+    color: white;
+}
+
+.stadium-list h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.stadiums {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.stadium {
+    text-align: center;
+    width: 20%;
+}
+
+.stadium img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.stadium img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px red;
+}
+
+.stadium p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* ✅ Bouton de réservation */
+.reservation-btn-container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.reservation-btn {
+    background: red;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.reservation-btn:hover {
+    background: white;
+    color: red;
+    box-shadow: 0px 0px 15px red;
+}
+/* ✅ Bannière des terrains */
+.terrain-banner {
+    background: url('assets/terrain_banner.jpg') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* ✅ Section texte + image */
+.terrain-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+    padding: 50px 0;
+    color: white;
+}
+
+.terrain-text {
+    width: 55%;
+}
+
+.terrain-text h2 {
+    font-size: 2.5rem;
+    color: red;
+    border-bottom: 4px solid red;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.terrain-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.terrain-text ul li {
+    font-size: 1.2rem;
+    padding: 5px 0;
+}
+
+.terrain-image {
+    width: 40%;
+}
+
+.terrain-image img {
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+
+/* ✅ Section des stades */
+.stadium-list {
+    text-align: center;
+    padding: 50px 0;
+    background: black;
+    color: white;
+}
+
+.stadium-list h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.stadiums {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.stadium {
+    text-align: center;
+    width: 20%;
+}
+
+.stadium img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.stadium img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px red;
+}
+
+.stadium p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* ✅ Bouton de réservation */
+.reservation-btn-container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.reservation-btn {
+    background: red;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.reservation-btn:hover {
+    background: white;
+    color: red;
+    box-shadow: 0px 0px 15px red;
+}
